@@ -1,11 +1,9 @@
-prefix=.
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
-includedir=${prefix}/Tide
+libdir=.build/checkouts/Tide
+includedir=${libdir}/Tide
 
 Name: Tide
 Description: Swift TCP adapter
-Version: 0.1.3
+Version: 0.1.4
 
 Requires:
 Libs: -L${libdir}

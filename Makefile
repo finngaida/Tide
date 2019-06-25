@@ -14,7 +14,7 @@ SRCS=$(wildcard Tide/*.c)
 HDRS=$(wildcard Tide/*.h)
 
 libtide.a:	$(SRCS)
-	clang -c $(SRCS)
+	clang -c -fPIC $(SRCS)
 ifeq ($(UNAME), Linux) # build for linux
 	ar -rcs lib$(LIB_NAME).a *.o
 endif
