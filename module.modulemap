@@ -1,5 +1,5 @@
 module Tide [system] {
-    header "/usr/local/include/tide/tide_swift.h"
+    header "./Tide/tide_swift.h"
     link "tide"
     export *
 }
