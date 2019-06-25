@@ -1,0 +1,12 @@
+prefix=/Users/fga/Desktop/Uni/6.\ Semester/P2P/project/Tide
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Tide
+Description: Swift TCP adapter
+Version: 0.1.2
+
+Requires:
+Libs: -L${libdir}
+Cflags: -I${includedir}
